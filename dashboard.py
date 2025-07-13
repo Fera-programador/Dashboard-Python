@@ -222,6 +222,5 @@ def update_graphs(selected_year, selected_continent, graph_size, log_x):
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))  # Fallback para 8080 se a PORT não existir
-    app.run(host='127.0.0.1', port=port, debug=True)
-
-
+    app.run(host='0.0.0.0', port=port, debug=False)
+    # O parâmetro debug=False é usado para evitar recarregamento automático em produção
