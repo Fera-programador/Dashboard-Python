@@ -216,5 +216,9 @@ def update_graphs(selected_year, selected_continent, graph_size, log_x):
     return scatter_fig, bar_fig, line_fig, pie_fig
 
 # Rodar servidor local
+import os
+
 if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 8080))
     app.run(debug=True)
+
