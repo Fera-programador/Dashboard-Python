@@ -93,6 +93,7 @@ app.layout = dbc.Container(fluid=True, style={
                                         [{"label": cont, "value": cont} for cont in df_full["continent"].unique()],
                                 value="all",
                                 clearable=False,
+                                className="dropdown-dark",
                                 style={"backgroundColor": "#161b22", "color": "#e6edf3"}
                             )
                         ], md=6),

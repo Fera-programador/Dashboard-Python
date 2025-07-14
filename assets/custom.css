@@ -1,0 +1,21 @@
+/* assets/custom.css */
+.dropdown-dark .Select-control {
+  background-color: #161b22 !important;
+  color: #e6edf3 !important;
+  border: 1px solid #30363d !important;
+}
+
+.dropdown-dark .Select-menu-outer {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+  border: 1px solid #30363d !important;
+}
+
+.dropdown-dark .Select-option {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+}
+
+.dropdown-dark .Select-option:hover {
+  background-color: #21262d !important;
+}
