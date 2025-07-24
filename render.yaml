@@ -3,6 +3,7 @@ services:
 name: dashboard-gapminder
 env: python
 buildCommand: ""
-startCommand: dashboard.py 
+startCommand: gunicorn dashboard:server
+envVars:
 - key: PORT
 value: 8080
