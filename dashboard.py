@@ -24,6 +24,7 @@ app = dash.Dash(
         'content': 'width=device-width, initial-scale=1.0'
     }]
 )
+server = app.server
 
 # ------------------------------------------------------------------
 # 2. Layout - Design Escuro Moderno
