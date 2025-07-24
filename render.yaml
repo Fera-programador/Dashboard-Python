@@ -1,9 +1,9 @@
 services:
-- type: web
-name: dashboard-gapminder
-env: python
-buildCommand: ""
-startCommand: gunicorn dashboard:server
+  - type: web
+    name: dashboard-gapminder
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn dashboard:server
 envVars:
-- key: PORT
-value: 8080
+  - key: PORT
+    value: $PORT
